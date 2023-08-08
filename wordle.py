@@ -10,6 +10,7 @@ from threading import *
 from pygame.locals import *
 from PIL import ImageTk, Image
 
+#Hello
 c=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 addr=input("Enter IP address: ")
 c.connect((addr,9998))
