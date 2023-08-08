@@ -7,7 +7,7 @@ print("waiting for connections")
 s.listen()
 clients = []
 nicknames = []
-
+#Jio
 def broadcast(message):
     for client in clients:
          client.send(message)
